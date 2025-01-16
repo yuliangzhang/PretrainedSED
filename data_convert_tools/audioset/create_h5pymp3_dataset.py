@@ -6,10 +6,16 @@ import csv
 import os
 
 # %%
-base_dir = "../../audioset_hdf5s/"
+# base_dir = "../../audioset_hdf5s/"
+# balanced_csv = base_dir + "metadata/balanced_train_segments.csv"
+# eval_csv = base_dir + "metadata/eval_segments.csv"
+# mp3_path = "../../mp3_audio/"
+
+base_dir = "/group/ems011/yuzhang/data/Audioset/"
 balanced_csv = base_dir + "metadata/balanced_train_segments.csv"
 eval_csv = base_dir + "metadata/eval_segments.csv"
-mp3_path = "../../mp3_audio/"
+mp3_path = base_dir + "mp3_audio/"
+
 
 
 # %%
